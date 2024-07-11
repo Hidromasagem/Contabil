@@ -6,15 +6,17 @@ function Home(){
 
 
             </header>
-            <body>
                 <div className="menu">
-                    <href></href><div className="botoes">Relatorios</div>
-                    <div className="botoes">Movimentação</div>
-                    <div className="botoes">Plano de contas</div>
-                    <div className="botoes">Dashboard</div>
-                    <button type='submit'>Logoff</button>
+                    <div className=" container text-center">
+                        <div class="row align-items-start">
+                            <div className="col">Relatorios</div>
+                            <div className="col">Movimentação</div>
+                            <div className="col">Plano de contas</div>
+                            <div className="col">Dashboard</div> 
+                        </div>               
+                    </div>
                 </div>
-            </body>
+
         </>
     )
 }export default Home;

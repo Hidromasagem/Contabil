@@ -2,7 +2,7 @@ function Mov(){
     return(
         <>
         <div className="box">
-            Visualização de Movimentação
+            <h1>Visualização de Movimentação</h1>
         </div>
         <div className="box">
             Cadastrar Movimentação contabil
