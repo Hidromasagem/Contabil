@@ -2,9 +2,7 @@ import '../PagesCSS/Home.css'
 function Home(){
     return(
         <>
-            <header>
-
-
+            <header>          
             </header>
                 <div className="menu">
                     <div className=" container text-center">
@@ -13,6 +11,7 @@ function Home(){
                             <div className="col">Movimentação</div>
                             <div className="col">Plano de contas</div>
                             <div className="col">Dashboard</div> 
+                            <div className='col'>Home</div>
                         </div>               
                     </div>
                 </div>

@@ -1,0 +1,12 @@
+.content {
+  padding-top: 5rem; /* Ajuste conforme necessário para o tamanho do seu header */
+}
+*{
+  margin: 0;
+  padding: 0;
+
+}
+html , body{
+  height: 100vh;
+  width: 100vw;
+}

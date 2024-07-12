@@ -1,26 +1,33 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes , Route } from 'react-router-dom'
-import Mov from './Pages/Mov.jsx'
-import Home from './Pages/Home.jsx'
-import VMov from './Pages/VMov.jsx'
-import CMov from './Pages/CMov.jsx'
-import VEsc from './Pages/VEsc.jsx'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './Pages/Home';
+import Relatorios from './Pages/Relatorios';
+import Movimentacao from './Pages/Movimentacao';
+import PlanoDeContas from './Pages/PlanoDeContas';
+import Dashboard from './Pages/Dashboard';
 import './PagesCSS/App.css'
+import CadaVizuMov from './Pages/CadaVizuMov';
+import MovIndeferida from './Pages/MovIndeferida';
+
 
 function App() {
-
   return (
-      <Router>
-          <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/Mov' element={<Mov/>}/>
-            <Route path='/CadastrarMov' element={<CMov/>}/>
-            <Route path='/VizualizarMov' element={<VMov/>}/>
-            <Route path='/VizualizarEsc' element={<VEsc/>}/>
-          </Routes>
-        </Router>
-      
-  )
+    <Router>
+      <Header />
+      <div className="content">
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/relatorios" element={<Relatorios />} />
+          <Route path="/movimentacao" element={<Movimentacao />} />
+            <Route path="/movimentacao/cadastrar" element={<CadaVizuMov/>} />
+            <Route path="/mocimentacao/indeferidos " element={<MovIndeferida/>}/>
+          <Route path="/plano-de-contas" element={<PlanoDeContas />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;

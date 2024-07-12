@@ -1,0 +1,24 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    font-size: 125%;
+  }
+  
+  .botoes {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+
+  .botoes:hover {
+    background-color: #555;
+  }
