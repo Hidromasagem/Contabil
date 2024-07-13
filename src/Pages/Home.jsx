@@ -6,14 +6,10 @@ function Home(){
             </header>
                 <div className="menu">
                     <div className=" container text-center">
-                        <div class="row align-items-start">
-                            <div className="col">Relatorios</div>
-                            <div className="col">Movimentação</div>
-                            <div className="col">Plano de contas</div>
-                            <div className="col">Dashboard</div> 
-                            <div className='col'>Home</div>
+                        HOME
+
                         </div>               
-                    </div>
+    
                 </div>
 
         </>

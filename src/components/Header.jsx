@@ -10,7 +10,7 @@ function Header() {
         <Link to="/movimentacao" className="botoes">Movimentação</Link>
         <Link to="/plano-de-contas" className="botoes">Plano de Contas</Link>
         <Link to="/dashboard" className="botoes">Dashboard</Link>
-
+        <Link to="/escrituracao" className="botoes">Escrituração</Link>
       </nav>
 
     </header>
